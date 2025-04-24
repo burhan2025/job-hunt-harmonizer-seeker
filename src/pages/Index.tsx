@@ -51,9 +51,10 @@ const Index = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-red-50 to-red-100">
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Job Listings</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-2">Job Listings</h1>
+        <p className="text-gray-600 mb-8">Find your dream job today</p>
         
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">

@@ -9,5 +9,6 @@ export interface Job {
   salary: string;
   type: 'Full-time' | 'Part-time' | 'Contract' | 'Remote';
   description: string;
+  requirements: string[];
   posted: string;
 }

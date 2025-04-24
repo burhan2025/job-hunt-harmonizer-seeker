@@ -32,8 +32,11 @@ const Filters = ({
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Locations</SelectItem>
-              <SelectItem value="san-francisco">San Francisco</SelectItem>
-              <SelectItem value="new-york">New York</SelectItem>
+              <SelectItem value="san-francisco">San Francisco, CA</SelectItem>
+              <SelectItem value="new-york">New York, NY</SelectItem>
+              <SelectItem value="seattle">Seattle, WA</SelectItem>
+              <SelectItem value="boston">Boston, MA</SelectItem>
+              <SelectItem value="austin">Austin, TX</SelectItem>
               <SelectItem value="remote">Remote</SelectItem>
             </SelectContent>
           </Select>
